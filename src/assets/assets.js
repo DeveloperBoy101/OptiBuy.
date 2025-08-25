@@ -69,7 +69,7 @@ import geometry2 from "./geometry2.png";
 import geometry3 from "./geometry3.png";
 import geometry4 from "./geometry4.png";
 import geometry5 from "./geometry5.png";
-import logo from "./logo.png";
+import geometry6 from "./geometry6.png"
 export const assets = {
   aboutimg,
   bin_icon,
@@ -623,7 +623,7 @@ export const features = [
     text: "Personalization Service",
   },
   {
-    image: logo,
+    image: geometry6,
     text: "Mix-and-Match Outfits",
   },
 ];
