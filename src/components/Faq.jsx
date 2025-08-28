@@ -26,7 +26,7 @@ const Faq = () => {
               className="w-full text-left py-4 px-2 flex justify-between items-center text-gray-800 hover:text-[#053052] focus:outline-none"
               onClick={() => toggleAnswer(item.id)}
             >
-              <span className="font-semibold text-sm prata-regular">{item.question}</span>
+              <span className="font-medium text-sm ">{item.question}</span>
               <MdAdd
                 className={`text-2xl transition-transform duration-300 transform ${activeId === item.id ? "rotate-45" : ""}`}
               />
@@ -38,7 +38,7 @@ const Faq = () => {
                   : "max-h-0 opacity-0 py-0"
               }`}
             >
-              <p className="text-gray-600 px-2 prata-regular text-[10px] tracking-wide ">{item.answer}</p>
+              <p className="text-gray-600 px-2  text-[12px] tracking-wide ">{item.answer}</p>
             </div>
           </div>
         ))}

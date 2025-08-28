@@ -54,10 +54,10 @@ const Product = () => {
           <h1 className="font-semibold text-3xl">{productData.name}</h1>
 
           <div className="flex items-center gap-1 mt-2">
-            <img src={assets.star_icon} alt="" className="w-4" />
-            <img src={assets.star_icon} alt="" className="w-4" />
-            <img src={assets.star_icon} alt="" className="w-4" />
-            <img src={assets.star_icon} alt="" className="w-4" />
+            <img src={assets.star_icon} alt="" className="w-4 " />
+            <img src={assets.star_icon} alt="" className="w-4 " />
+            <img src={assets.star_icon} alt="" className="w-4 " />
+            <img src={assets.star_icon} alt="" className="w-4 " />
             <img src={assets.star_dull_icon} alt="" className="w-4" />
             <p className="pl-2 text-gray-600 text-sm">(122 Reviews)</p>
           </div>
